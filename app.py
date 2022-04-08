@@ -29,7 +29,7 @@ dataset = st.file_uploader(label = '')
 
 use_defo = st.checkbox('Use example Dataset')
 if use_defo:
-    dataset = 'CarPrice_Assignment.csv'
+    dataset = 'Interpolation_Average_2013_2015.xlsx'
 
 st.sidebar.header('Import Dataset to Use Available Features: 👉')
 
